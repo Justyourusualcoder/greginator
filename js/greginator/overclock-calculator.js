@@ -369,8 +369,8 @@ onVersionChanged(function(version) {
 			var paEnergy = _energy * Math.pow(ENERGY_PER_TIER, paOverclocks);
 
 			if (batch_mode) {
-				paTime *= 128;
-				paAmount *= 128;
+				paTime *= 2880;
+				paAmount *= 2880;
 			}
 
 			return {
